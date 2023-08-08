@@ -1,0 +1,20 @@
+{
+  "name": "hima-mage/module-order-success-page",
+  "version": "1.0.0",
+  "description": "order success page show details and other related details .",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "HimaMage\\OrderSuccessPage\\": ""
+    }
+  }
+}
